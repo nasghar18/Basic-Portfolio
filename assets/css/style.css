@@ -31,7 +31,7 @@ a{
 }
 
 .header{
-	border-bottom: 1px solid /*#8c8b8b*/ #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
 }
 
 header{
@@ -64,10 +64,6 @@ header{
 
 a.PageLinks{
 	display: inline;
-	/*font-family: "Arial";
-	font-size:12px;
-	padding: 10px;
-	color:#777777;*/
 }
 
 a.PageLinks:hover{
@@ -77,8 +73,6 @@ a.PageLinks:hover{
 
 
 .content{
-	/*margin-top: -22px;
-	padding-top: 0px;*/
 	width:100%;
 	clear:both;
 	min-height: 100%;
@@ -86,7 +80,7 @@ a.PageLinks:hover{
 	background-image: url("../images/stardust.png");
 }
 
-.AboutMe, .Contact{
+.AboutMe, .Contact, .Portfolio{
 	background:#959595;
 	float: left;
 	width: 590px;
@@ -99,17 +93,19 @@ section.AboutMe, section.Contact{
 	padding:0px 30px 0px 30px;
 }
 
-/*#AboutMehr{
-	width:100%;
-}*/
+section.Portfolio{
+	padding:0px 30px 20px 30px;
+	overflow:auto;
+}
 
-#Aboutmeh1, #Contacth1{
+
+#Aboutmeh1, #Contacth1, #portfolioh1{
 	color: #E1DAA2;
 	font-family: "Georgia";
 	font-size:30px;
 	margin:40px 0px 25px 0px;
 	padding: 0px 0px 20px 0px;
-	border-bottom: 2px solid /*#8c8b8b*/ #E1E1E1;
+	border-bottom: 2px solid #E1E1E1;
 }
 
 #selfpic{
@@ -155,9 +151,105 @@ input.submitbutton{
 	background:#95906B;
 }
 
-input.submitbutton:hover {
+input.submitbutton:hover{
 	background: #E1DAA2;
 	color:#55523D;
+}
+
+img{
+	width:265px;
+	height:195px;
+	padding: 15px 0px 15px 0px;
+}
+
+div.hangman{
+	position: relative;
+	float: left;
+}
+
+#hangman{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rpg{
+	float:right;
+	position:relative;
+}
+
+#rpg{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.trivia{
+	float:left;
+	position:relative;
+}
+
+#trivia{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rutgers{
+	float:right;
+	position: relative;
+}
+
+#rutgers{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rps{
+	float:left;
+	position: relative;
+}
+
+#rps{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
 }
 
 .Connect{
@@ -175,7 +267,7 @@ input.submitbutton:hover {
 	font-size: 23px;
 	margin:0px 0px 0px 0px;
 	padding:20px 0px 10px 0px;
-	border-bottom: 1px solid /*#8c8b8b*/ #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
 }
 
 aside.Connect{
@@ -189,6 +281,7 @@ nav.connectlinks{
 
 #githubpic, #linkedinpic{
 	width:80px;
+	height:80px;
 	padding: 20px 0px 24px 5px;
 }
 
